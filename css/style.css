@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root{
     --main-color:#3867d6;
@@ -34,9 +34,9 @@ html::-webkit-scrollbar-thumb{
     border-radius: 5rem;
 }
 
-body{
+/* body{
     background: #222;
-}
+} */
 
 section{
     padding:2rem 9%;
@@ -72,7 +72,7 @@ section{
 }
 
 .header{
-    position: fixed;
+    position: sticky;
     top:0; left: 0; right: 0;
     z-index: 10000;
     background: #333;
@@ -96,6 +96,7 @@ section{
     font-size: 1.7rem;
     color:#fff;
     margin-left: 2rem;
+    font-weight: bold;
 }
 
 .header .navbar a:hover{
